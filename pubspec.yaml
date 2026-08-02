@@ -1,0 +1,27 @@
+name: pantrysync
+description: A real-time household inventory & predictive auto-restock application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  supabase_flutter: ^2.3.4
+  google_fonts: ^6.1.0
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
