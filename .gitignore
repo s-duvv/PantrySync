@@ -17,6 +17,12 @@ android/local.properties
 __pycache__/
 *.pyc
 
+# Environment & Credentials
+.env
+.env.*
+*.env
+*.local
+
 # IDE & OS
 .DS_Store
 .vscode/
